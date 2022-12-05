@@ -104,12 +104,20 @@ h4{
     border-radius: 12px;
     transform: rotate();
 } */
+.resume{
+    background: var(--white);
+    width: 700px;
+    margin: 50px auto;
+    box-shadow: 45px 21px 60px 10px #878787;
+}
 * .top {
     background: var(--blue);
     padding: 25px;
     border-radius: 15px;
 }
-
+.clearfix{
+    clear: both;
+}
 .top-left {
     width: 60%;
     float: left;
@@ -150,14 +158,14 @@ h1 {
 }
 .left{
     background: var(--gray);
-    width: 220px;
+    width: 280px;
     padding: 20px;
     float: left;
     border-radius: 15px;
     position: relative;
 }
 .profile{
-    width: 160%;
+    width: 100%;
 }
 h2{
     text-transform: uppercase;
@@ -171,4 +179,13 @@ h4{
     letter-spacing: 5px;
     margin-bottom: 5px;
     /* margin-top: 10px; */
+}
+.one{
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-left: 20px;
+}
+.right{
+    width: 400px;
+    float: left; 
 }
